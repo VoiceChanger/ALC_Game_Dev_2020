@@ -728,7 +728,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -748,7 +748,6 @@ MonoBehaviour:
   - {fileID: 2921811695887096177, guid: edc078e0826474fb59d3a9ada65e30eb, type: 3}
   - {fileID: 4035865675307472694, guid: 829e1e2227449493dbbcc44eefb05f86, type: 3}
   - {fileID: 8784817535287827521, guid: abc284451551a46818dbe025d06eb33e, type: 3}
-  animalIndex: 0
 --- !u!4 &1704155031
 Transform:
   m_ObjectHideFlags: 0
@@ -757,7 +756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704155029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3193089, y: 12.539526, z: -37.086983}
+  m_LocalPosition: {x: 1.98, y: 2.89, z: 25.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -5,15 +5,19 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject[] animalPrefabs;
-    public int animalIndex;
+    private float spawnRangeX = 20;
+    private float spawnPosZ = 20;
 
     // Update is called once per frame
     void Update()
     {
-        //Spawns animals back into the game area
+        //Spawns animals into the scene
         if(Input.GetKeyDown(KeyCode.S))
         {
-            Instantiate(animalPrefabs[animalIndex], new Vector3(0, 0, 20), animalPrefabs[animalIndex].transform.rotation);
+            //Randomly generate animal index and spawn position
+            Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+            int animalIndex = Random.Range(0, animalPrefabs.Length);
+            Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
         }
     }
 }
