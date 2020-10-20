@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2319417693187700068}
   - component: {fileID: 2319417693187700075}
   - component: {fileID: 2319417693187700074}
+  - component: {fileID: 2830103601111507539}
   m_Layer: 0
   m_Name: Sandwich
   m_TagString: Untagged
@@ -143,6 +144,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBounds: 35
   lowerBounds: -15
+--- !u!114 &2830103601111507539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2319417692236968342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe118862846cc41f5a8e7d45109ab844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2319417691880495646
 PrefabInstance:
   m_ObjectHideFlags: 0
